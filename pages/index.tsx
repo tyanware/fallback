@@ -12,7 +12,10 @@ const Home: NextPage = () => {
               Be right back.
             </Heading>
             <Text textAlign={"center"} color="#8F9094">
-              tygr.dev is under maintenance. <br /> Please check back later.
+                tygr.dev is under maintenance. <br /> Please check back later. <br \> A bleeding edge version is available over at {" "}
+                <Link href="https://beta.tygr.dev">
+                  beta.tygr.dev
+                </Link>
             </Text>
           </Stack>
         </Stack>
