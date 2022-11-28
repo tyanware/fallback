@@ -14,10 +14,10 @@ const Home: NextPage = () => {
             <Text textAlign={"center"} color="#8F9094">           tygr.dev is under maintenance. <br /> Please check back later.
             </Text>
             <Link href="https://beta.tygr.dev" pt={"2rem"}>
-            <Button bg={"#fff"} color={"#000"}>
-                                        Bleeding Edge (Beta)
-                                </Button>
-                                </Link>
+              <Button bg={"#fff"} color={"#000"}>
+                Bleeding Edge (Beta)
+              </Button>
+            </Link>
           </Stack>
         </Stack>
       </Flex>
