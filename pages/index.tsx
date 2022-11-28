@@ -1,4 +1,4 @@
-import { Flex, Heading, Stack, Image, Text, Link } from '@chakra-ui/react';
+import  { Flex, Heading, Stack, Image, Text, Link, Button } from '@chakra-ui/react';
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
@@ -11,12 +11,13 @@ const Home: NextPage = () => {
             <Heading>
               Be right back.
             </Heading>
-            <Text textAlign={"center"} color="#8F9094">
-                tygr.dev is under maintenance. <br /> Please check back later. <br \> A bleeding edge version is available over at {" "}
-                <Link href="https://beta.tygr.dev">
-                  beta.tygr.dev
-                </Link>
+            <Text textAlign={"center"} color="#8F9094">           tygr.dev is under maintenance. <br /> Please check back later.
             </Text>
+            <Link href="https://beta.tygr.dev" pt={"2rem"}>
+            <Button bg={"#fff"} color={"#000"}>
+                                        Bleeding Edge (Beta)
+                                </Button>
+                                </Link>
           </Stack>
         </Stack>
       </Flex>
